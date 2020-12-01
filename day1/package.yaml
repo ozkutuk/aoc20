@@ -1,7 +1,7 @@
 name:                day1
 version:             0.1.0.0
 github:              "ozkutuk/aoc20"
-license:             BSD3
+license:             MIT
 author:              "Berk Ozkutuk <ozkutuk.berk@gmail.com>"
 
 dependencies:
