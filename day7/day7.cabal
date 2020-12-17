@@ -1,0 +1,37 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.33.0.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: a26486b67bce6666a23aebcf46fc414dce5c74bbcac2b7e758f787ef5ef2fb0b
+
+name:           day7
+version:        0.1.0.0
+homepage:       https://github.com/ozkutuk/aoc20#readme
+bug-reports:    https://github.com/ozkutuk/aoc20/issues
+author:         Berk Ozkutuk <ozkutuk.berk@gmail.com>
+maintainer:     Berk Ozkutuk <ozkutuk.berk@gmail.com>
+license:        MIT
+build-type:     Simple
+
+source-repository head
+  type: git
+  location: https://github.com/ozkutuk/aoc20
+
+executable day7
+  main-is: Main.hs
+  other-modules:
+      Paths_day7
+  hs-source-dirs:
+      src
+  default-extensions: OverloadedStrings LambdaCase
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N -Wall -Wcompat -Wincomplete-record-updates -Wincomplete-uni-patterns -Wredundant-constraints
+  build-depends:
+      base >=4.7 && <5
+    , containers
+    , lens
+    , lens-regex-pcre
+    , text
+    , unordered-containers
+  default-language: Haskell2010
