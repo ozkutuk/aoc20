@@ -1,0 +1,36 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.33.0.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: 4eb57d604db0e8641f6180402c19a640c53590766567b03ed0b28ce707d4c55f
+
+name:           day8
+version:        0.1.0.0
+homepage:       https://github.com/ozkutuk/aoc20#readme
+bug-reports:    https://github.com/ozkutuk/aoc20/issues
+author:         Berk Ozkutuk <ozkutuk.berk@gmail.com>
+maintainer:     Berk Ozkutuk <ozkutuk.berk@gmail.com>
+license:        MIT
+build-type:     Simple
+
+source-repository head
+  type: git
+  location: https://github.com/ozkutuk/aoc20
+
+executable day8
+  main-is: Main.hs
+  other-modules:
+      Paths_day8
+  hs-source-dirs:
+      src
+  default-extensions: OverloadedStrings LambdaCase
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N -Wall -Wcompat -Wincomplete-record-updates -Wincomplete-uni-patterns -Wredundant-constraints
+  build-depends:
+      base >=4.7 && <5
+    , containers
+    , megaparsec
+    , text
+    , vector
+  default-language: Haskell2010
